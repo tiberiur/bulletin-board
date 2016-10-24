@@ -1,0 +1,38 @@
+{
+  "name": "bulletin-board",
+  "version": "1.0.0",
+  "description": "A React application",
+  "main": "Note.js",
+  "scripts": {
+    "build": "babel js -d build",
+    "start": "open http://localhost:3000 & httpster -p 3000"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiberiur/Learn-React.js-The-Basics.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "bulletin",
+    "board"
+  ],
+  "author": "Tiberiu Rus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiberiur/Learn-React.js-The-Basics/issues"
+  },
+  "homepage": "https://github.com/tiberiur/Learn-React.js-The-Basics",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.16.0"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
